@@ -14,13 +14,13 @@ The infrastructure is organized into three primary tiers:
 
 A single VPC with CIDR `10.0.0.0/16` is used, and the tiers are segregated into individual subnets:
 
-| Tier          | Subnet Name          | CIDR Block        |
-|---------------|----------------------|-------------------|
-| **VPC**       | `dev-vpc`           | `10.0.0.0/16`     |
-| **Web Tier**  | `dev-web-subnet01`  | `10.0.10.0/24`    |
-| **WAS Tier**  | `dev-was-subnet01`  | `10.0.20.0/24`    |
-| **DB Tier**   | `dev-db-subnet01`   | `10.0.30.0/24`    |
-| **DB Tier**   | `dev-db-subnet02`   | `10.0.31.0/24`    |
+| Tier               | Subnet Name         | CIDR Block        |
+|--------------------|---------------------|-------------------|
+| **VPC**            | `dev-vpc`           | `10.0.0.0/16`     |
+| **Web-Subnet-01**  | `dev-web-subnet01`  | `10.0.10.0/24`    |
+| **WAS-Subnet-01**  | `dev-was-subnet01`  | `10.0.20.0/24`    |
+| **DB-Subnet-01**   | `dev-db-subnet01`   | `10.0.30.0/24`    |
+| **DB-Subnet-01**   | `dev-db-subnet02`   | `10.0.31.0/24`    |
 
 
 ### Routing Tables
